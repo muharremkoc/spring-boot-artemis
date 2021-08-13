@@ -29,8 +29,11 @@
 * Third Click Management Console and sign username and password in application.properties
 * ![Uploading ArtemisLogIn.png…]()
 
-*  mvn clean and mvn install and plugins->spring-boot-run
-*  ![Maven Commands](https://user-images.githubusercontent.com/80245013/129343986-efb9083f-b37f-4be1-9428-5268aa10bb32.png)
+*      Maven Commans
+*   mvn clean
+*   mvn install
+*   mvn spring-boot:run or java -jar your application path
+
 
 *  Open the ArtemisQTest
 *  ![ArtemisQTest](https://user-images.githubusercontent.com/80245013/129344203-fd9fb50b-2fd7-471c-b150-c3d7c36a559b.png)
