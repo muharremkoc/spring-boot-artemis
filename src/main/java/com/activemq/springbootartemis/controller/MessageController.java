@@ -1,6 +1,7 @@
 package com.activemq.springbootartemis.controller;
 
 import com.activemq.springbootartemis.service.DispatcherService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,10 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequiredArgsConstructor
 public class MessageController {
 
-   @Autowired
-    DispatcherService dispatcherService;
+
+   final DispatcherService dispatcherService;
 
    @PostMapping("/message")
    public ResponseEntity<String> send(@RequestBody String message){
