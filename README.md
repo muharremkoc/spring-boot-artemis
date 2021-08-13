@@ -29,7 +29,7 @@
 * Third Click Management Console and sign username and password in application.properties
 * ![Uploading ArtemisLogIn.png…]()
 
-*      Maven Commans
+*      Maven Commands
 *   mvn clean
 *   mvn install
 *   mvn spring-boot:run or java -jar your application path
